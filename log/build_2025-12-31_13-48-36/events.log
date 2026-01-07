@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000338] (agv_zone_manager) JobQueued: {'identifier': 'agv_zone_manager', 'dependencies': OrderedDict()}
+[0.001355] (agv_zone_manager) JobStarted: {'identifier': 'agv_zone_manager'}
+[0.099623] (-) TimerEvent: {}
+[0.200025] (-) TimerEvent: {}
+[0.300472] (-) TimerEvent: {}
+[0.401030] (-) TimerEvent: {}
+[0.501413] (-) TimerEvent: {}
+[0.601813] (-) TimerEvent: {}
+[0.650248] (agv_zone_manager) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/agv_zone_manager', 'build', '--build-base', '/home/debby_anna/ros2_ws/build/agv_zone_manager/build', 'install', '--record', '/home/debby_anna/ros2_ws/build/agv_zone_manager/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/debby_anna/ros2_ws/src/agv_zone_manager', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'debby_anna', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/debby_anna', 'OLDPWD': '/home/debby_anna/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'debby_anna', 'NAME': 'DEBBY', 'WSL_INTEROP': '/run/WSL/16916_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Users/Debby Anna/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Debby Anna/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/debby_anna/ros2_ws/build/agv_zone_manager', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/debby_anna/ros2_ws/build/agv_zone_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.702034] (-) TimerEvent: {}
+[0.802605] (-) TimerEvent: {}
+[0.832246] (agv_zone_manager) StdoutLine: {'line': b'running egg_info\n'}
+[0.833336] (agv_zone_manager) StdoutLine: {'line': b'creating ../../build/agv_zone_manager/agv_zone_manager.egg-info\n'}
+[0.834196] (agv_zone_manager) StdoutLine: {'line': b'writing ../../build/agv_zone_manager/agv_zone_manager.egg-info/PKG-INFO\n'}
+[0.834450] (agv_zone_manager) StdoutLine: {'line': b'writing dependency_links to ../../build/agv_zone_manager/agv_zone_manager.egg-info/dependency_links.txt\n'}
+[0.834801] (agv_zone_manager) StdoutLine: {'line': b'writing entry points to ../../build/agv_zone_manager/agv_zone_manager.egg-info/entry_points.txt\n'}
+[0.835013] (agv_zone_manager) StdoutLine: {'line': b'writing requirements to ../../build/agv_zone_manager/agv_zone_manager.egg-info/requires.txt\n'}
+[0.835072] (agv_zone_manager) StdoutLine: {'line': b'writing top-level names to ../../build/agv_zone_manager/agv_zone_manager.egg-info/top_level.txt\n'}
+[0.835358] (agv_zone_manager) StdoutLine: {'line': b"writing manifest file '../../build/agv_zone_manager/agv_zone_manager.egg-info/SOURCES.txt'\n"}
+[0.837248] (agv_zone_manager) StdoutLine: {'line': b"reading manifest file '../../build/agv_zone_manager/agv_zone_manager.egg-info/SOURCES.txt'\n"}
+[0.837629] (agv_zone_manager) StdoutLine: {'line': b"writing manifest file '../../build/agv_zone_manager/agv_zone_manager.egg-info/SOURCES.txt'\n"}
+[0.838563] (agv_zone_manager) StdoutLine: {'line': b'running build\n'}
+[0.838749] (agv_zone_manager) StdoutLine: {'line': b'running build_py\n'}
+[0.838807] (agv_zone_manager) StdoutLine: {'line': b'creating /home/debby_anna/ros2_ws/build/agv_zone_manager/build\n'}
+[0.839594] (agv_zone_manager) StdoutLine: {'line': b'creating /home/debby_anna/ros2_ws/build/agv_zone_manager/build/lib\n'}
+[0.839828] (agv_zone_manager) StdoutLine: {'line': b'creating /home/debby_anna/ros2_ws/build/agv_zone_manager/build/lib/agv_zone_manager\n'}
+[0.840143] (agv_zone_manager) StdoutLine: {'line': b'copying agv_zone_manager/zone_manager_node.py -> /home/debby_anna/ros2_ws/build/agv_zone_manager/build/lib/agv_zone_manager\n'}
+[0.841016] (agv_zone_manager) StdoutLine: {'line': b'copying agv_zone_manager/__init__.py -> /home/debby_anna/ros2_ws/build/agv_zone_manager/build/lib/agv_zone_manager\n'}
+[0.841305] (agv_zone_manager) StdoutLine: {'line': b'copying agv_zone_manager/zone_logic.py -> /home/debby_anna/ros2_ws/build/agv_zone_manager/build/lib/agv_zone_manager\n'}
+[0.841926] (agv_zone_manager) StdoutLine: {'line': b'running install\n'}
+[0.842349] (agv_zone_manager) StdoutLine: {'line': b'running install_lib\n'}
+[0.843533] (agv_zone_manager) StdoutLine: {'line': b'creating /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager\n'}
+[0.844033] (agv_zone_manager) StdoutLine: {'line': b'copying /home/debby_anna/ros2_ws/build/agv_zone_manager/build/lib/agv_zone_manager/zone_manager_node.py -> /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager\n'}
+[0.844289] (agv_zone_manager) StdoutLine: {'line': b'copying /home/debby_anna/ros2_ws/build/agv_zone_manager/build/lib/agv_zone_manager/__init__.py -> /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager\n'}
+[0.844840] (agv_zone_manager) StdoutLine: {'line': b'copying /home/debby_anna/ros2_ws/build/agv_zone_manager/build/lib/agv_zone_manager/zone_logic.py -> /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager\n'}
+[0.845451] (agv_zone_manager) StdoutLine: {'line': b'byte-compiling /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager/zone_manager_node.py to zone_manager_node.cpython-310.pyc\n'}
+[0.846577] (agv_zone_manager) StdoutLine: {'line': b'byte-compiling /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager/__init__.py to __init__.cpython-310.pyc\n'}
+[0.846833] (agv_zone_manager) StdoutLine: {'line': b'byte-compiling /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager/zone_logic.py to zone_logic.cpython-310.pyc\n'}
+[0.847307] (agv_zone_manager) StdoutLine: {'line': b'running install_data\n'}
+[0.847511] (agv_zone_manager) StdoutLine: {'line': b'creating /home/debby_anna/ros2_ws/install/agv_zone_manager/share/ament_index\n'}
+[0.847909] (agv_zone_manager) StdoutLine: {'line': b'creating /home/debby_anna/ros2_ws/install/agv_zone_manager/share/ament_index/resource_index\n'}
+[0.848698] (agv_zone_manager) StdoutLine: {'line': b'creating /home/debby_anna/ros2_ws/install/agv_zone_manager/share/ament_index/resource_index/packages\n'}
+[0.849089] (agv_zone_manager) StdoutLine: {'line': b'copying resource/agv_zone_manager -> /home/debby_anna/ros2_ws/install/agv_zone_manager/share/ament_index/resource_index/packages\n'}
+[0.849358] (agv_zone_manager) StdoutLine: {'line': b'copying package.xml -> /home/debby_anna/ros2_ws/install/agv_zone_manager/share/agv_zone_manager\n'}
+[0.849710] (agv_zone_manager) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.851274] (agv_zone_manager) StdoutLine: {'line': b'Copying ../../build/agv_zone_manager/agv_zone_manager.egg-info to /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager-0.0.0-py3.10.egg-info\n'}
+[0.852178] (agv_zone_manager) StdoutLine: {'line': b'running install_scripts\n'}
+[0.867422] (agv_zone_manager) StdoutLine: {'line': b"writing list of installed files to '/home/debby_anna/ros2_ws/build/agv_zone_manager/install.log'\n"}
+[0.885902] (agv_zone_manager) CommandEnded: {'returncode': 0}
+[0.896222] (agv_zone_manager) JobEnded: {'identifier': 'agv_zone_manager', 'rc': 0}
+[0.897125] (-) EventReactorShutdown: {}

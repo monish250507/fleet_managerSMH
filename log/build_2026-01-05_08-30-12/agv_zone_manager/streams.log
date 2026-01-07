@@ -1,0 +1,21 @@
+[1.165s] Invoking command in '/home/debby_anna/ros2_ws/src/agv_zone_manager': PYTHONPATH=/home/debby_anna/ros2_ws/build/agv_zone_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_zone_manager build --build-base /home/debby_anna/ros2_ws/build/agv_zone_manager/build install --record /home/debby_anna/ros2_ws/build/agv_zone_manager/install.log --single-version-externally-managed install_data
+[1.433s] running egg_info
+[1.433s] writing ../../build/agv_zone_manager/agv_zone_manager.egg-info/PKG-INFO
+[1.479s] writing dependency_links to ../../build/agv_zone_manager/agv_zone_manager.egg-info/dependency_links.txt
+[1.481s] writing entry points to ../../build/agv_zone_manager/agv_zone_manager.egg-info/entry_points.txt
+[1.481s] writing requirements to ../../build/agv_zone_manager/agv_zone_manager.egg-info/requires.txt
+[1.481s] writing top-level names to ../../build/agv_zone_manager/agv_zone_manager.egg-info/top_level.txt
+[1.485s] reading manifest file '../../build/agv_zone_manager/agv_zone_manager.egg-info/SOURCES.txt'
+[1.488s] writing manifest file '../../build/agv_zone_manager/agv_zone_manager.egg-info/SOURCES.txt'
+[1.488s] running build
+[1.489s] running build_py
+[1.492s] running install
+[1.492s] running install_lib
+[1.496s] running install_data
+[1.499s] running install_egg_info
+[1.502s] removing '/home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager-0.0.0-py3.10.egg-info' (and everything under it)
+[1.503s] Copying ../../build/agv_zone_manager/agv_zone_manager.egg-info to /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages/agv_zone_manager-0.0.0-py3.10.egg-info
+[1.506s] running install_scripts
+[1.545s] Installing zone_manager_node script to /home/debby_anna/ros2_ws/install/agv_zone_manager/lib/agv_zone_manager
+[1.548s] writing list of installed files to '/home/debby_anna/ros2_ws/build/agv_zone_manager/install.log'
+[1.577s] Invoked command in '/home/debby_anna/ros2_ws/src/agv_zone_manager' returned '0': PYTHONPATH=/home/debby_anna/ros2_ws/build/agv_zone_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debby_anna/ros2_ws/install/agv_zone_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_zone_manager build --build-base /home/debby_anna/ros2_ws/build/agv_zone_manager/build install --record /home/debby_anna/ros2_ws/build/agv_zone_manager/install.log --single-version-externally-managed install_data

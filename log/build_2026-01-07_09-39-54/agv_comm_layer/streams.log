@@ -1,0 +1,40 @@
+[0.740s] Invoking command in '/home/debby_anna/ros2_ws/src/agv_comm_layer': PYTHONPATH=/home/debby_anna/ros2_ws/build/agv_comm_layer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_comm_layer build --build-base /home/debby_anna/ros2_ws/build/agv_comm_layer/build install --record /home/debby_anna/ros2_ws/build/agv_comm_layer/install.log --single-version-externally-managed install_data
+[0.891s] running egg_info
+[0.892s] creating ../../build/agv_comm_layer/agv_comm_layer.egg-info
+[0.892s] writing ../../build/agv_comm_layer/agv_comm_layer.egg-info/PKG-INFO
+[0.892s] writing dependency_links to ../../build/agv_comm_layer/agv_comm_layer.egg-info/dependency_links.txt
+[0.893s] writing entry points to ../../build/agv_comm_layer/agv_comm_layer.egg-info/entry_points.txt
+[0.893s] writing requirements to ../../build/agv_comm_layer/agv_comm_layer.egg-info/requires.txt
+[0.893s] writing top-level names to ../../build/agv_comm_layer/agv_comm_layer.egg-info/top_level.txt
+[0.893s] writing manifest file '../../build/agv_comm_layer/agv_comm_layer.egg-info/SOURCES.txt'
+[0.894s] reading manifest file '../../build/agv_comm_layer/agv_comm_layer.egg-info/SOURCES.txt'
+[0.895s] writing manifest file '../../build/agv_comm_layer/agv_comm_layer.egg-info/SOURCES.txt'
+[0.895s] running build
+[0.895s] running build_py
+[0.895s] creating /home/debby_anna/ros2_ws/build/agv_comm_layer/build
+[0.896s] creating /home/debby_anna/ros2_ws/build/agv_comm_layer/build/lib
+[0.896s] creating /home/debby_anna/ros2_ws/build/agv_comm_layer/build/lib/agv_comm_layer
+[0.896s] copying agv_comm_layer/ros_mqtt_bridge.py -> /home/debby_anna/ros2_ws/build/agv_comm_layer/build/lib/agv_comm_layer
+[0.896s] copying agv_comm_layer/vda_messages.py -> /home/debby_anna/ros2_ws/build/agv_comm_layer/build/lib/agv_comm_layer
+[0.896s] copying agv_comm_layer/__init__.py -> /home/debby_anna/ros2_ws/build/agv_comm_layer/build/lib/agv_comm_layer
+[0.896s] running install
+[0.897s] running install_lib
+[0.898s] creating /home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages/agv_comm_layer
+[0.899s] copying /home/debby_anna/ros2_ws/build/agv_comm_layer/build/lib/agv_comm_layer/ros_mqtt_bridge.py -> /home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages/agv_comm_layer
+[0.899s] copying /home/debby_anna/ros2_ws/build/agv_comm_layer/build/lib/agv_comm_layer/vda_messages.py -> /home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages/agv_comm_layer
+[0.899s] copying /home/debby_anna/ros2_ws/build/agv_comm_layer/build/lib/agv_comm_layer/__init__.py -> /home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages/agv_comm_layer
+[0.899s] byte-compiling /home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages/agv_comm_layer/ros_mqtt_bridge.py to ros_mqtt_bridge.cpython-310.pyc
+[0.899s] byte-compiling /home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages/agv_comm_layer/vda_messages.py to vda_messages.cpython-310.pyc
+[0.899s] byte-compiling /home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages/agv_comm_layer/__init__.py to __init__.cpython-310.pyc
+[0.900s] running install_data
+[0.900s] creating /home/debby_anna/ros2_ws/install/agv_comm_layer/share/ament_index
+[0.900s] creating /home/debby_anna/ros2_ws/install/agv_comm_layer/share/ament_index/resource_index
+[0.900s] creating /home/debby_anna/ros2_ws/install/agv_comm_layer/share/ament_index/resource_index/packages
+[0.900s] copying resource/agv_comm_layer -> /home/debby_anna/ros2_ws/install/agv_comm_layer/share/ament_index/resource_index/packages
+[0.900s] copying package.xml -> /home/debby_anna/ros2_ws/install/agv_comm_layer/share/agv_comm_layer
+[0.900s] running install_egg_info
+[0.902s] Copying ../../build/agv_comm_layer/agv_comm_layer.egg-info to /home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages/agv_comm_layer-0.0.0-py3.10.egg-info
+[0.903s] running install_scripts
+[0.922s] Installing ros_mqtt_bridge script to /home/debby_anna/ros2_ws/install/agv_comm_layer/lib/agv_comm_layer
+[0.922s] writing list of installed files to '/home/debby_anna/ros2_ws/build/agv_comm_layer/install.log'
+[0.955s] Invoked command in '/home/debby_anna/ros2_ws/src/agv_comm_layer' returned '0': PYTHONPATH=/home/debby_anna/ros2_ws/build/agv_comm_layer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/debby_anna/ros2_ws/install/agv_comm_layer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_comm_layer build --build-base /home/debby_anna/ros2_ws/build/agv_comm_layer/build install --record /home/debby_anna/ros2_ws/build/agv_comm_layer/install.log --single-version-externally-managed install_data

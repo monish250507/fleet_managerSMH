@@ -1,0 +1,4 @@
+[console_scripts]
+dummy_odom_publisher = agv_zone_manager.dummy_odom_publisher:main
+zone_manager_node = agv_zone_manager.zone_manager_node:main
+

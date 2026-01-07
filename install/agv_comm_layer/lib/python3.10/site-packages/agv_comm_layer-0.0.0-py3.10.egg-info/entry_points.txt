@@ -1,0 +1,3 @@
+[console_scripts]
+ros_mqtt_bridge = agv_comm_layer.ros_mqtt_bridge:main
+
