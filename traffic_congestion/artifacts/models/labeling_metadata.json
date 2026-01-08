@@ -1,0 +1,13 @@
+{
+  "congestion_pressure_75th_percentile": 4.674205107206012,
+  "label_distribution": {
+    "2": 259,
+    "0": 197,
+    "1": 44
+  },
+  "label_names": {
+    "0": "SAFE",
+    "1": "WARNING",
+    "2": "CRITICAL"
+  }
+}
